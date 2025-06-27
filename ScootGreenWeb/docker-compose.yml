@@ -1,0 +1,6 @@
+services:
+  scootgreenweb:
+    image: ${DOCKER_REGISTRY-}scootgreenweb
+    build:
+      context: .
+      dockerfile: ScootGreenWeb/Dockerfile
